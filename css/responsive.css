@@ -1,10 +1,73 @@
-@media only screen and (max-width: 767px) { 
+@media only screen and (max-width: 767px) {
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .web-container {
+    /* The image used */
+    background-image: url("bg.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  } 
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .web-container {
+    /* The image used */
+    background-image: url("bg.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .web-container {
+    /* The image used */
+    background-image: url("bg.png");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-container {
+    margin: 6rem;
+    text-align: center;
+  }
 }
 
 @media only screen and (min-width: 1201px) { 
