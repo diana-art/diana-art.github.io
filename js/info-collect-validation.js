@@ -1,9 +1,17 @@
 $(document).ready(function() {
-    $('.mobile-apply').bootstrapValidator({
+    $('.info-collect').bootstrapValidator({
         //submitButtons: '#postForm',
         // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later      
         fields: {
-            applyEmail: {
+            name: {
+                message: 'Name is not valid',
+                validators: {
+                    notEmpty: {
+                        message: 'Name is required and cannot be empty'
+                    }
+                }
+            }, 
+            email: {
                 validators: {
                     notEmpty: {
                         message: 'The email address is required and cannot be empty'
@@ -12,15 +20,8 @@ $(document).ready(function() {
                         message: 'The email address is not a valid'
                     }
                 }
-            },
-            applyComment: {
-                message: 'Address is not valid',
-                validators: {
-                    notEmpty: {
-                        message: 'Address is required and cannot be empty'
-                    }
-                }
-            }, 
+            }
+
 
         }
     })
@@ -35,7 +36,7 @@ $(document).ready(function() {
         var bv = $form.data('bootstrapValidator');
 
         // Use Ajax to submit form data
-        var url = 'https://script.google.com/macros/s/AKfycbwK9brNQEM1bggSQt9Ao0BpyuSOnMoDTzQCxOqocp1Gw-uWrEQ/exec';
+        var url = 'https://script.google.com/macros/s/AKfycbzNpsl8Jufw0rkLJ5Unf54TJHrUyfINXeo9fmBFRUY9iBPGfT5w/exec';
         var redirectUrl = 'success-page.html';
         // show the loading 
         $('.mobile-submit').prepend($('<span></span>').addClass('glyphicon glyphicon-refresh glyphicon-refresh-animate'));
