@@ -191,15 +191,14 @@
     body, html {
         height: 100%;
         margin: 0;
-        background: #000;
       }
       .about-container {
         margin: 6rem;
         text-align: center;
       }
       .navbar {
-        margin-top: 6rem;
-        margin-right: 4rem;
+        margin-top: 3rem;
+        margin-right: 6rem;
       }
       .navbar-light .navbar-nav .nav-link {
         font-size: 1.5rem;
@@ -226,6 +225,7 @@
         background: #fff;
         margin: auto;
         padding: 4rem;
+        margin-bottom: 4rem;
       }
       .form-control {
         border: none;
@@ -255,5 +255,73 @@
         text-align: center;
         margin: auto;
         color: white;
+      }
+      #logo {
+        margin-left: 4rem;
+        margin-top: 4rem;
+      }
+      .footer {
+        color: #fff;
+        font-size: 1rem;
+        text-align: center;
+      }
+      .fade-in {
+        animation: fadeIn ease 5s;
+        -webkit-animation: fadeIn ease 5s;
+        -moz-animation: fadeIn ease 5s;
+        -o-animation: fadeIn ease 5s;
+        -ms-animation: fadeIn ease 5s;
+      }
+      .main-container {
+        margin: 6rem auto;
+        width: 70%;
+        height: auto;
+        text-align: center;
+
+      }
+      
+      @keyframes fadeIn{
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {
+          opacity:0;
+        }
+        100% {
+          opacity:1;
+        }
       }
 }
