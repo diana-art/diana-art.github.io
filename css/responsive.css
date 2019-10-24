@@ -7,6 +7,17 @@
   .about-container {
     margin: 6rem;
     text-align: center;
+  }  
+  #resume-container {
+    padding-left: 6rem;
+    padding-top: 2rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -86,7 +97,28 @@
     text-align: center;
 
   }
-  
+  #resume-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
   @keyframes fadeIn{
     0% {
       opacity:0;
@@ -205,6 +237,17 @@
     margin-left: 4rem;
     margin-top: 2rem;
   }
+  #resume-container {
+    padding-left: 20rem;
+    padding-top: 4rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+
+  }
   .footer {
     color: #fff;
     font-size: 1rem;
@@ -224,7 +267,28 @@
     text-align: center;
 
   }
-  
+  #resume-title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
   @keyframes fadeIn{
     0% {
       opacity:0;
@@ -348,6 +412,17 @@
     padding: 4rem 3rem;
     width: 70%;
   }
+  #resume-container {
+    padding-left: 20rem;
+    padding-top: 4rem;
+  }
+  #download-resume {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 700;
+
+  }
   .fade-in {
     animation: fadeIn ease 5s;
     -webkit-animation: fadeIn ease 5s;
@@ -362,7 +437,28 @@
     text-align: center;
 
   }
-  
+  #resume-title {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .resume-header {
+    font-size: 1.5rem;
+    letter-spacing:4px;
+    font-weight: 700;
+  }
+  .bold-text {
+    font-weight: 600;
+  }
+  .resume-link{
+    color: #000;
+    text-decoration: underline;
+  }
+  p {
+    margin: 0;
+  }
+  .resume-gray {
+    color: #6d6d6d;
+  }
   @keyframes fadeIn{
     0% {
       opacity:0;
