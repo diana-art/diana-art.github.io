@@ -97,6 +97,13 @@
     text-align: center;
 
   }
+  .works-title {
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 0.2rem;
+    margin-bottom: 2rem;
+  }
   #resume-title {
     font-size: 2rem;
     font-weight: 700;
@@ -289,6 +296,12 @@
   .resume-gray {
     color: #6d6d6d;
   }
+  .works-title {
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+    padding-top: 0.3rem;
+  }
   @keyframes fadeIn{
     0% {
       opacity:0;
@@ -458,6 +471,12 @@
   }
   .resume-gray {
     color: #6d6d6d;
+  }
+  .works-title {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: left;
+    padding-top: 0.5rem;
   }
   @keyframes fadeIn{
     0% {
@@ -636,6 +655,12 @@
       }
       .resume-gray {
         color: #6d6d6d;
+      }
+      .works-title {
+        color: #fff;
+        font-size: 1.5rem;
+        text-align: left;
+        padding-top: 0.5rem;
       }
       @keyframes fadeIn{
         0% {
