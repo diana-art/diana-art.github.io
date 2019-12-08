@@ -19,7 +19,12 @@
     font-weight: 700;
 
   }
-
+  .navbar-light .navbar-toggler {
+    color: #fff;;
+  }
+  .navbar-toggler-icon {
+    color: #fff;
+  }
   .navbar-light .navbar-nav .nav-link {
     font-size: 1.5rem;
     font-weight: 700;
@@ -34,8 +39,8 @@
   }
   #home-img {
     padding-top: 4rem;
-    width: 60%;
-    height: auto;
+    width: 300px;
+    height: 150px;
   }
   #resume {
     width: 70%;
@@ -201,8 +206,8 @@
   }
   #home-img {
     padding-top: 4rem;
-    width: 60%;
-    height: auto;
+    width: 600px;
+    height: 230px;
   }
   #resume {
     width: 70%;
@@ -378,8 +383,8 @@
   }
   #home-img {
     padding-top: 4rem;
-    width: 60%;
-    height: auto;
+    width: 800px;
+    height: 300px;
   }
   #resume {
     width: 70%;
@@ -565,8 +570,8 @@
       }
       #home-img {
         padding-top: 4rem;
-        width: 60%;
-        height: auto;
+        width: 800px;
+        height: 300px;
       }
       #resume {
         width: 70%;
