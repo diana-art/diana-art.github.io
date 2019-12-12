@@ -75,21 +75,10 @@
     margin: auto;
     color: white;
   }
-  #resume-content {
-    display: flex; 
-    justify-content: center; 
-    background: #fff;
-    padding: 1rem 3rem 4rem 3rem;
-    width: 70%;
-  }
-  #resume-title {
-    display: flex; 
-    justify-content: center; 
-    margin: auto;
-    text-align: center;
-    padding: 4rem 3rem 1rem 3rem;
-    width: 70%;
-    background: #fff;
+  #resume-context {
+    width: 90%;
+    background: #ffffff;
+    padding: 4rem 3rem 4rem 3rem;
   }
   #resume-subtitle {
     font-size: 1rem;
@@ -125,14 +114,14 @@
     padding-top: 0.2rem;
     margin-bottom: 2rem;
   }
-  #resume-title {
-    font-size: 2rem;
-    font-weight: 700;
-  }
   .resume-header {
     font-size: 1.5rem;
     letter-spacing:4px;
     font-weight: 700;
+  }
+  .tiny-icon {
+    font-size: 0.4rem;
+    vertical-align: middle;
   }
   .bold-text {
     font-weight: 600;
@@ -140,6 +129,9 @@
   .resume-link{
     color: #000;
     text-decoration: underline;
+  }
+  h1 {
+    margin-bottom: 0;
   }
   p {
     margin: 0;
@@ -236,21 +228,10 @@
     font-size: 1.5rem;
     font-weight: 600;
   }
-  #resume-content {
-    display: flex; 
-    justify-content: center; 
-    background: #fff;
-    padding: 1rem 3rem 4rem 3rem;
+  #resume-context {
     width: 70%;
-  }
-  #resume-title {
-    display: flex; 
-    justify-content: center; 
-    margin: auto;
-    text-align: center;
-    padding: 4rem 3rem 1rem 3rem;
-    width: 70%;
-    background: #fff;
+    background: #ffffff;
+    padding: 4rem 3rem 4rem 3rem;
   }
   #resume-subtitle {
     font-size: 1.5rem;
@@ -311,14 +292,14 @@
     text-align: center;
 
   }
-  #resume-title {
-    font-size: 2rem;
-    font-weight: 700;
-  }
   .resume-header {
     font-size: 1.5rem;
     letter-spacing:4px;
     font-weight: 700;
+  }
+  .tiny-icon {
+    font-size: 0.4rem;
+    vertical-align: middle;
   }
   .bold-text {
     font-weight: 600;
@@ -332,6 +313,9 @@
   }
   .resume-gray {
     color: #6d6d6d;
+  }
+  h1 {
+    margin-bottom: 0;
   }
   .works-title {
     color: #fff;
@@ -458,21 +442,10 @@
     font-size: 1rem;
     text-align: center;
   }
-  #resume-content {
-    display: flex; 
-    justify-content: center; 
-    background: #fff;
-    padding: 1rem 3rem 4rem 3rem;
+  #resume-context {
     width: 70%;
-  }
-  #resume-title {
-    display: flex; 
-    justify-content: center; 
-    margin: auto;
-    text-align: center;
-    padding: 4rem 3rem 1rem 3rem;
-    width: 70%;
-    background: #fff;
+    background: #ffffff;
+    padding: 4rem 3rem 4rem 3rem;
   }
   #resume-subtitle {
     font-size: 1.5rem;
@@ -503,14 +476,15 @@
     text-align: center;
 
   }
-  #resume-title {
-    font-size: 3rem;
-    font-weight: 700;
-  }
+
   .resume-header {
     font-size: 1.5rem;
     letter-spacing:4px;
     font-weight: 700;
+  }
+  .tiny-icon {
+    font-size: 0.4rem;
+    vertical-align: middle;
   }
   .bold-text {
     font-weight: 600;
@@ -524,6 +498,9 @@
   }
   .resume-gray {
     color: #6d6d6d;
+  }
+  h1 {
+    margin-bottom: 0;
   }
   .works-title {
     color: #fff;
@@ -670,22 +647,13 @@
         font-size: 1rem;
         text-align: center;
       }
-      #resume-content {
-        display: flex; 
-        justify-content: center; 
-        background: #fff;
-        padding: 1rem 3rem 4rem 3rem;
+
+      #resume-context {
         width: 70%;
+        background: #ffffff;
+        padding: 4rem 3rem 4rem 3rem;
       }
-      #resume-title {
-        display: flex; 
-        justify-content: center; 
-        margin: auto;
-        text-align: center;
-        padding: 4rem 3rem 1rem 3rem;
-        width: 70%;
-        background: #fff;
-      }
+
       #resume-subtitle {
         font-size: 1.5rem;
         font-weight: 400;
@@ -704,10 +672,7 @@
         text-align: center;
 
       }
-      #resume-title {
-        font-size: 3rem;
-        font-weight: 700;
-      }
+
       .resume-header {
         font-size: 1.5rem;
         letter-spacing:4px;
@@ -723,6 +688,9 @@
       .resume-link{
         color: #000;
         text-decoration: underline;
+      }
+      h1 {
+        margin-bottom: 0;
       }
       p {
         margin: 0;
